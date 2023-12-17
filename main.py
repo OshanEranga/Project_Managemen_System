@@ -1,4 +1,3 @@
-
 # Display the Menu
 def display_menu():
     print(" XYZ COMPANY ".center(100))
@@ -103,7 +102,6 @@ def project_statistics(data_list:list,available_workers:int) ->list:
                 print("Invalid input.Try again.")
                 continue
 
-
 #Remove a completed project from existing projects
 def remove_com_pro(data_list:list) ->list:
     if data_list == []:
@@ -127,8 +125,7 @@ def remove_com_pro(data_list:list) ->list:
                 
             print("Project code is invalid.Re enter the project code.")
             continue
-
-    
+  
 #Update details on ongoing project
 def update_project(data_list:list) ->list:
     if data_list == []:
@@ -170,8 +167,7 @@ def update_project(data_list:list) ->list:
                 
             print("Project code is invalid.Re enter the project code.")
             continue
-
-                        
+                     
 #Add new workers to available workers group
 def add_new_workers(a_workers:int) -> int:
     while True:
